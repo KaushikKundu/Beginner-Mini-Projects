@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.clock{
+    width: 300px;
+    background-color: rgb(241, 241, 129);
+    border: 2px solid black;
+    margin: auto;
+    margin-top: 200px;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
