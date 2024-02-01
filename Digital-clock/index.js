@@ -13,7 +13,7 @@ function showTime() {
   let hr = curTime.getHours();
   let sec = curTime.getSeconds();
   let min = curTime.getMinutes();
-  let ampm = curTime.getHours() >= 12 ? "" : "AM";
+  let ampm = curTime.getHours() >= 12 ? "AM" : "PM";
   hr = hr % 12;
   hour.textContent = hr;
   minutes.textContent = min;
